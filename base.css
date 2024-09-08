@@ -1,0 +1,144 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FDF1F2; /* Cor de fundo bege claro */
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #FFFFFF; /* Cor branca */
+    min-width: 75vw;
+}
+
+.menu {
+    width: 25%;
+    background-color: #F4BDC4; /* Cor rosa claro */
+    padding: 10px 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #555555;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-bottom: 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+   
+    font-weight: bold;
+
+    font-family: 'Poppins', sans-serif;
+    color: #8B3E4D;
+}
+
+.header {
+    background-color: #EBA5B1; /* Cor rosa médio */
+    min-height: 150px;
+    min-width: 75vw;
+    width: 100%;
+    background-image: url('Breeze.jpg');
+    background-size: cover; /* Faz a imagem cobrir todo o espaço do header */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-position: center center; /* Centraliza a imagem no header */
+}
+
+.content {
+    max-width: 1200px; /* Define uma largura máxima para o conteúdo */
+    margin: 0 auto; /* Centraliza o content horizontalmente */
+    padding: 20px;
+    background-color: #FFFFFF; /* Cor de fundo opcional */
+    text-align: center; /* Centraliza o texto */
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto; /* Centraliza a tabela horizontalmente */
+    width: auto; /* Ajusta a largura da tabela */
+    text-align: center;
+}
+
+.footer {
+    background: linear-gradient(90deg, #dcc3c3 0%, #f1d3d3 100%);
+    min-height: 150px;
+    text-align: center;
+    padding: 20px;
+    min-width: 75vw;
+
+}
+.pf {
+    color: #ffffff;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #C75C75;
+}
+
+p, li {
+    
+    font-family: 'Lora', serif;
+    color: #555555;
+    line-height: 1.6;
+}
+
+.testimonials {
+    background-color: #F8EDED;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    color: #A84848; 
+    width: 80%; 
+}
+
+.testimonials h3 {
+    color: #D28E8E;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.testimonials p {
+    font-style: italic;
+    color: #4A4A4A;
+}
+
+form {
+    background-color: #fce4ec; /* Fundo rosa claro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Leve sombra */
+}
+
+input[type="text"], input[type="email"], textarea {
+    border: 1px solid #e91e63; /* Borda em rosa escuro */
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fce4ec; /* Fundo rosa claro para os campos */
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: #e91e63; /* Botões rosa */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #d81b60; /* Cor mais escura ao passar o mouse */
+}
